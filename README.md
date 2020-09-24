@@ -37,7 +37,7 @@ Used Euclidean distance to calcule the distance between two points.
 
 dist((x, y), (a, b)) = √(x - a)² + (y - b)²
 
-As an example, the Euclidean distance between points (-2, -1) and (2, 2) is found to be
+As an example, the Euclidean distance between points (-2, -1) and (2, 2) is 
 
  	dist((-2, -1), (2, 2))	= √(-2 - (-2))² + ((-1) - 2)²
  	 	= √(-2 + 2)² + (-1 - 2)²
