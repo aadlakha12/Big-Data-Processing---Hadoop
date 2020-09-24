@@ -5,15 +5,14 @@ A MapReduce algorithm to produce count of every word in the gutenberg document.
 
 #### Part 2: NGrams
 
-A MapReduce algorithm to produce
-modified tri-grams around the key words, after replacing the key word with ‘$’ using the gutenberg dataset.
+A MapReduce algorithm to produce modified tri-grams around the key words, after replacing the key word with ‘$’ using the gutenberg dataset.
 
 Example:
 cat was sitting on a roof ---> if the key word was ‘sitting’ ---> the modified tri-grams would be
 cat_was_$, was_$_on,$_on_a,
 The key words to look for in the gutenberg dataset are ‘science’, ‘sea’ , ‘fire’.
 
-The algorithm after producing these modified tri-grams, should return the 10 most occurred modified tri-gram in the dataset.
+The algorithm after producing these modified tri-grams, return the 10 most occurred modified tri-gram in the dataset.
 
 #### Part 3: Inverted Index
 
