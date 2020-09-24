@@ -30,3 +30,18 @@ Using the train and test set provided in the assignment, implemented KNN
 algorithm using MapReduce.
 
 KNN algorithm is a supervised machine learning algorithm that be used to address both classification and regression problems. It assumes that similar things are near to each other. It works based on the concept of similarity and assigns the label based on highest vote for the chosen ‘k’ neighbors.
+
+KNN is a non-parametric model. It doesn't make any assumuptions about data. It is also considered to be lazy learner as it doesn't learn anything from training data but uses training data itself for classification.
+
+Used Euclidean distance to calcule the distance between two points.
+
+dist((x, y), (a, b)) = √(x - a)² + (y - b)²
+
+As an example, the Euclidean distance between points (-2, -1) and (2, 2) is found to be
+
+ 	dist((-2, -1), (2, 2))	= √(-2 - (-2))² + ((-1) - 2)²
+ 	 	= √(-2 + 2)² + (-1 - 2)²
+ 	 	= √(0)² + (-3)²
+ 	 	= √9
+ 	 	= 3.
+    
