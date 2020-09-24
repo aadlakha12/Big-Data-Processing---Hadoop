@@ -1,4 +1,4 @@
-# Hadoop
+# Big Data Processing - Hadoop
 
 #### Part 1: Word Count 
 A MapReduce algorithm to produce count of every word in the gutenberg document.
